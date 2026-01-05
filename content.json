@@ -1,0 +1,338 @@
+{
+  "business": {
+    "name": "Toms Solar Brisbane",
+    "tagline": "Brisbane's Premier Solar installer for homes - Where Quality Meets Excellence",
+    "phone": "1300 000 000",
+    "email": "info@tomssolarbrisbane.com.au",
+    "address": "123 Main Street, Brisbane",
+    "suburb": "Brisbane",
+    "city": "Brisbane",
+    "state": "QLD",
+    "postcode": "4000",
+    "country": "Australia",
+    "service": "Solar installer for homes",
+    "serviceSlug": "solar-installer-for-homes",
+    "abn": "12 345 678 901",
+    "established": 2021,
+    "openingHours": {
+      "monday": "9:00 AM - 5:00 PM",
+      "tuesday": "9:00 AM - 5:00 PM",
+      "wednesday": "9:00 AM - 5:00 PM",
+      "thursday": "9:00 AM - 7:00 PM",
+      "friday": "9:00 AM - 5:00 PM",
+      "saturday": "9:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    },
+    "socialMedia": {
+      "facebook": "https://facebook.com/tomssolarbrisbane",
+      "instagram": "https://instagram.com/tomssolarbrisbane",
+      "google": "https://g.page/tomssolarbrisbane"
+    }
+  },
+  "services": [
+    {
+      "title": "Premium Service",
+      "slug": "premium-service",
+      "shortDescription": "Our most popular service",
+      "description": "Experience our flagship service with attention to detail and quality craftsmanship.",
+      "price": "From $100",
+      "duration": "60 mins",
+      "icon": "star",
+      "features": [
+        "Quality guaranteed",
+        "Expert team",
+        "Premium materials",
+        "Full support"
+      ],
+      "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Standard Service",
+      "slug": "standard-service",
+      "shortDescription": "Professional service at great value",
+      "description": "Quality service that meets your needs without breaking the bank.",
+      "price": "From $75",
+      "duration": "45 mins",
+      "icon": "check",
+      "features": [
+        "Professional service",
+        "Fair pricing",
+        "Quick turnaround",
+        "Satisfaction guaranteed"
+      ],
+      "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Express Service",
+      "slug": "express-service",
+      "shortDescription": "Quick and efficient service",
+      "description": "When you need it done fast without compromising on quality.",
+      "price": "From $50",
+      "duration": "30 mins",
+      "icon": "clock",
+      "features": [
+        "Fast service",
+        "No compromise",
+        "Convenient",
+        "Reliable"
+      ],
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Consultation",
+      "slug": "consultation",
+      "shortDescription": "Expert advice and planning",
+      "description": "Get professional advice tailored to your specific needs and requirements.",
+      "price": "Free",
+      "duration": "30 mins",
+      "icon": "chat",
+      "features": [
+        "Free consultation",
+        "Expert advice",
+        "No obligation",
+        "Custom solutions"
+      ],
+      "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop"
+    }
+  ],
+  "serviceAreas": [
+    {
+      "name": "Brisbane",
+      "slug": "brisbane",
+      "description": "Located in the heart of Brisbane, we're your go-to destination for premium solar installer for homes services."
+    },
+    {
+      "name": "Brisbane CBD",
+      "slug": "brisbane-cbd",
+      "description": "Serving the Brisbane CBD with exceptional solar installer for homes services."
+    },
+    {
+      "name": "Surrounding Areas",
+      "slug": "surrounding-areas",
+      "description": "We proudly serve Brisbane and all surrounding suburbs with professional solar installer for homes services."
+    }
+  ],
+  "team": [
+    {
+      "name": "Owner",
+      "role": "Founder & Lead Specialist",
+      "bio": "With over 15 years of experience, our founder established Toms Solar Brisbane to bring world-class solar installer for homes services to Brisbane.",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
+      "specialties": [
+        "Management",
+        "Customer Service",
+        "Quality Assurance"
+      ]
+    },
+    {
+      "name": "Senior Specialist",
+      "role": "Senior Team Member",
+      "bio": "Our senior specialist brings 10 years of experience and is known for delivering exceptional results.",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
+      "specialties": [
+        "Expertise",
+        "Precision",
+        "Customer Care"
+      ]
+    },
+    {
+      "name": "Team Member",
+      "role": "Specialist",
+      "bio": "Passionate about solar installer for homes, bringing fresh ideas and excellent service to every client.",
+      "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
+      "specialties": [
+        "Innovation",
+        "Quality",
+        "Reliability"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah M.",
+      "location": "Brisbane",
+      "text": "I've been coming to Toms Solar Brisbane for years and wouldn't trust anyone else. The team are true professionals!",
+      "rating": 5,
+      "service": "Premium Service",
+      "date": "2024-11"
+    },
+    {
+      "name": "David N.",
+      "location": "Brisbane",
+      "text": "Finally found a solar installer for homes that delivers quality every time. Quick, professional, and great value.",
+      "rating": 5,
+      "service": "Standard Service",
+      "date": "2024-10"
+    },
+    {
+      "name": "Jessica W.",
+      "location": "Brisbane",
+      "text": "Toms Solar Brisbane exceeded all my expectations. The team was professional and the results were amazing!",
+      "rating": 5,
+      "service": "Express Service",
+      "date": "2024-09"
+    },
+    {
+      "name": "Amanda C.",
+      "location": "Brisbane",
+      "text": "Best service in the area. Fair prices and great communication throughout.",
+      "rating": 5,
+      "service": "Premium Service",
+      "date": "2024-11"
+    },
+    {
+      "name": "Sophie B.",
+      "location": "Brisbane",
+      "text": "Called for an emergency and they were there within the hour. Couldn't be happier!",
+      "rating": 5,
+      "service": "Standard Service",
+      "date": "2024-08"
+    },
+    {
+      "name": "Rachel G.",
+      "location": "Brisbane",
+      "text": "Professional, reliable, and great attention to detail. Highly recommended!",
+      "rating": 5,
+      "service": "Express Service",
+      "date": "2024-10"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book online through our website 24/7, call us on 1300 000 000 during business hours, or send us a message on social media."
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "We require 24 hours notice for cancellations or rescheduling. Late cancellations may incur a fee. We understand emergencies happen and will always work with you."
+    },
+    {
+      "question": "Do you offer free consultations?",
+      "answer": "Yes! We offer complimentary consultations for all our services. This helps us understand your needs and provide an accurate quote."
+    },
+    {
+      "question": "What areas do you service?",
+      "answer": "We primarily service Brisbane, Brisbane, and surrounding areas within QLD. Contact us to confirm we cover your location."
+    },
+    {
+      "question": "Is parking available?",
+      "answer": "Yes! Free parking is available near our location. There's also street parking and public transport options nearby."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept all major credit cards, EFTPOS, bank transfer, and cash. Payment plans may be available for larger services."
+    },
+    {
+      "question": "Are you licensed and insured?",
+      "answer": "Yes, we are fully licensed and insured. All our team members hold current certifications and undergo regular training."
+    },
+    {
+      "question": "Do you offer warranties on your work?",
+      "answer": "Yes! We stand behind our work with satisfaction guarantees and warranties on applicable services. Ask us for details."
+    }
+  ],
+  "about": {
+    "title": "Brisbane's Most Trusted Solar installer for homes Since 2021",
+    "story": "Toms Solar Brisbane was founded in 2021 with a simple mission: to bring world-class solar installer for homes services to Brisbane. After training and working with industry leaders, our founder returned to their hometown to create a business that combines technical excellence with a welcoming, local feel.\n\nToday, our team shares a passion for delivering exceptional results for every client. We've built our reputation on honesty, expertise, and results that speak for themselves.\n\nWhether you need a simple service or a complete solution, we're here to help you achieve your goals.",
+    "mission": "Our mission is to deliver exceptional solar installer for homes services in a welcoming environment, using sustainable practices and premium products.",
+    "values": [
+      {
+        "title": "Excellence",
+        "description": "We never stop learning. Our team regularly trains with industry leaders to stay at the forefront of techniques and trends."
+      },
+      {
+        "title": "Honesty",
+        "description": "We'll always give you honest advice about what's achievable and what's best for your needs."
+      },
+      {
+        "title": "Reliability",
+        "description": "We're committed to showing up on time, every time, and delivering on our promises."
+      }
+    ],
+    "features": [
+      "Licensed & Fully Insured",
+      "Locally Owned Since 2021",
+      "Quality Guaranteed",
+      "Premium Products & Materials",
+      "Complimentary Consultations",
+      "Easy Parking Available"
+    ]
+  },
+  "gallery": [
+    {
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=600&fit=crop",
+      "alt": "Our work - Example 1",
+      "category": "Featured"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&h=600&fit=crop",
+      "alt": "Our work - Example 2",
+      "category": "Recent"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=600&fit=crop",
+      "alt": "Our work - Example 3",
+      "category": "Featured"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=600&fit=crop",
+      "alt": "Our work - Example 4",
+      "category": "Recent"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=600&fit=crop",
+      "alt": "Our work - Example 5",
+      "category": "Featured"
+    },
+    {
+      "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&h=600&fit=crop",
+      "alt": "Our work - Example 6",
+      "category": "Recent"
+    }
+  ],
+  "seo": {
+    "siteName": "Toms Solar Brisbane Brisbane",
+    "siteUrl": "https://tomssolarbrisbane.com.au",
+    "title": "Toms Solar Brisbane | Best Solar installer for homes Brisbane | Brisbane Solar installer for homes",
+    "description": "Brisbane's top-rated solar installer for homes in Brisbane. Expert service, premium quality. Award-winning team, competitive prices. Book online today!",
+    "keywords": [
+      "solar installer for homes brisbane",
+      "solar installer for homes brisbane",
+      "best solar installer for homes brisbane",
+      "brisbane solar installer for homes",
+      "brisbane solar installer for homes",
+      "local solar installer for homes",
+      "solar installer for homes near me",
+      "professional solar installer for homes",
+      "solar installer for homes services",
+      "QLD solar installer for homes"
+    ]
+  },
+  "schema": {
+    "type": "LocalBusiness",
+    "priceRange": "$$"
+  },
+  "colors": {
+    "primary": "#2563eb",
+    "primaryLight": "#3b82f6",
+    "secondary": "#1f2937",
+    "accent": "#f59e0b"
+  },
+  "images": {
+    "hero": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop",
+    "about": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop"
+  },
+  "copy": {
+    "heroSubtitle": "Professional solar installer for homes services with quality results guaranteed.",
+    "servicesSubtitle": "From routine maintenance to specialized services, our expert team delivers exceptional results.",
+    "teamTitle": "Meet Our Team",
+    "teamSubtitle": "Experienced professionals dedicated to delivering quality solar installer for homes services.",
+    "ctaTitle": "Ready for Professional Solar installer for homes?",
+    "ctaSubtitle": "Get a free quote today and experience the Toms Solar Brisbane difference."
+  },
+  "cta": {
+    "primary": "Book Online",
+    "secondary": "Call Now",
+    "consultation": "Free Consultation"
+  }
+}

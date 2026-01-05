@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default colors - will be overridden by layout.tsx from content.json */
+:root {
+  --color-primary: #2563eb;
+  --color-primary-light: #3b82f6;
+  --color-secondary: #1f2937;
+  --color-accent: #f59e0b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Brand color utilities - use these instead of hardcoded Tailwind colors */
+@layer utilities {
+  /* Text colors */
+  .text-brand { color: var(--color-primary); }
+  .text-brand-light { color: var(--color-primary-light); }
+
+  /* Background colors */
+  .bg-brand { background-color: var(--color-primary); }
+  .bg-brand-light { background-color: var(--color-primary-light); }
+  .bg-brand\/20 { background-color: color-mix(in srgb, var(--color-primary) 20%, transparent); }
+  .bg-brand\/10 { background-color: color-mix(in srgb, var(--color-primary) 10%, transparent); }
+
+  /* Border colors */
+  .border-brand { border-color: var(--color-primary); }
+  .border-brand\/30 { border-color: color-mix(in srgb, var(--color-primary) 30%, transparent); }
+
+  /* Hover states */
+  .hover\:bg-brand:hover { background-color: var(--color-primary); }
+  .hover\:bg-brand-dark:hover { background-color: color-mix(in srgb, var(--color-primary) 85%, black); }
+  .hover\:text-brand:hover { color: var(--color-primary); }
+  .hover\:text-brand-dark:hover { color: color-mix(in srgb, var(--color-primary) 85%, black); }
+  .hover\:border-brand:hover { border-color: var(--color-primary); }
+
+  /* Group hover */
+  .group-hover\:text-brand:is(:where(.group):hover *) { color: var(--color-primary); }
+  .group-hover\:bg-brand:is(:where(.group):hover *) { background-color: var(--color-primary); }
+
+  /* Shadow */
+  .shadow-brand\/30 { box-shadow: 0 10px 15px -3px color-mix(in srgb, var(--color-primary) 30%, transparent); }
+
+  /* Gradient */
+  .from-brand { --tw-gradient-from: var(--color-primary); }
+  .to-brand { --tw-gradient-to: var(--color-primary); }
+  .from-brand-light { --tw-gradient-from: var(--color-primary-light); }
+  .to-brand-dark { --tw-gradient-to: color-mix(in srgb, var(--color-primary) 85%, black); }
+}
