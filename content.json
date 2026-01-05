@@ -1,17 +1,17 @@
 {
   "business": {
     "name": "Toms Solar Brisbane",
-    "tagline": "Brisbane's Premier Solar installer for homes - Where Quality Meets Excellence",
-    "phone": "1300 000 000",
-    "email": "info@tomssolarbrisbane.com.au",
+    "tagline": "Brisbane's Premier Solar Installer - Where Quality Meets Excellence",
+    "phone": "12345678977",
+    "email": "hello@aaronware.me",
     "address": "123 Main Street, Brisbane",
     "suburb": "Brisbane",
     "city": "Brisbane",
     "state": "QLD",
     "postcode": "4000",
     "country": "Australia",
-    "service": "Solar installer for homes",
-    "serviceSlug": "solar-installer-for-homes",
+    "service": "Solar Installer",
+    "serviceSlug": "solar-installer",
     "abn": "12 345 678 901",
     "established": 2021,
     "openingHours": {
@@ -31,119 +31,151 @@
   },
   "services": [
     {
-      "title": "Premium Service",
-      "slug": "premium-service",
-      "shortDescription": "Our most popular service",
-      "description": "Experience our flagship service with attention to detail and quality craftsmanship.",
-      "price": "From $100",
-      "duration": "60 mins",
-      "icon": "star",
+      "title": "Residential Solar Installation",
+      "slug": "residential-solar",
+      "shortDescription": "Power your home with clean energy",
+      "description": "Complete residential solar system installation including premium panels, inverters, and full system design. We handle everything from initial consultation to final connection, ensuring maximum efficiency for your home.",
+      "price": "From $5,500",
+      "duration": "1-2 days",
+      "icon": "sun",
       "features": [
-        "Quality guaranteed",
-        "Expert team",
-        "Premium materials",
-        "Full support"
+        "Premium Tier 1 panels",
+        "10-year workmanship warranty",
+        "CEC accredited installers",
+        "Grid connection included"
       ],
-      "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800&h=600&fit=crop"
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=600&fit=crop"
     },
     {
-      "title": "Standard Service",
-      "slug": "standard-service",
-      "shortDescription": "Professional service at great value",
-      "description": "Quality service that meets your needs without breaking the bank.",
-      "price": "From $75",
-      "duration": "45 mins",
-      "icon": "check",
+      "title": "Commercial Solar Systems",
+      "slug": "commercial-solar",
+      "shortDescription": "Reduce your business energy costs",
+      "description": "Large-scale solar solutions for businesses, warehouses, and commercial properties. We design custom systems to maximize your energy savings and provide detailed ROI analysis.",
+      "price": "From $15,000",
+      "duration": "3-5 days",
+      "icon": "building",
       "features": [
-        "Professional service",
-        "Fair pricing",
-        "Quick turnaround",
-        "Satisfaction guaranteed"
+        "Custom system design",
+        "Energy monitoring",
+        "Tax incentives guidance",
+        "Commercial warranties"
       ],
-      "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&h=600&fit=crop"
+      "image": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&h=600&fit=crop"
     },
     {
-      "title": "Express Service",
-      "slug": "express-service",
-      "shortDescription": "Quick and efficient service",
-      "description": "When you need it done fast without compromising on quality.",
-      "price": "From $50",
-      "duration": "30 mins",
-      "icon": "clock",
+      "title": "Battery Storage Solutions",
+      "slug": "battery-storage",
+      "shortDescription": "Store energy for when you need it",
+      "description": "Tesla Powerwall, Sungrow, and other premium battery systems to store excess solar energy. Use your stored power at night or during blackouts for true energy independence.",
+      "price": "From $10,000",
+      "duration": "1 day",
+      "icon": "battery",
       "features": [
-        "Fast service",
-        "No compromise",
-        "Convenient",
-        "Reliable"
+        "Tesla Powerwall certified",
+        "Blackout protection",
+        "Smart energy management",
+        "10-year warranties"
       ],
-      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop"
+      "image": "https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?w=800&h=600&fit=crop"
     },
     {
-      "title": "Consultation",
-      "slug": "consultation",
-      "shortDescription": "Expert advice and planning",
-      "description": "Get professional advice tailored to your specific needs and requirements.",
-      "price": "Free",
-      "duration": "30 mins",
-      "icon": "chat",
+      "title": "Solar Panel Cleaning",
+      "slug": "solar-panel-cleaning",
+      "shortDescription": "Maximize your system efficiency",
+      "description": "Professional solar panel cleaning to remove dirt, bird droppings, and debris that reduce system efficiency. Regular cleaning can improve output by up to 30%.",
+      "price": "From $150",
+      "duration": "1-2 hours",
+      "icon": "sparkles",
       "features": [
-        "Free consultation",
-        "Expert advice",
-        "No obligation",
-        "Custom solutions"
+        "Deionized water cleaning",
+        "No harsh chemicals",
+        "Inspection included",
+        "Before/after photos"
       ],
-      "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop"
+      "image": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "Solar Repairs & Maintenance",
+      "slug": "solar-repairs",
+      "shortDescription": "Keep your system running at peak performance",
+      "description": "Expert diagnosis and repair of solar system issues including inverter faults, panel damage, and wiring problems. We service all brands and provide comprehensive health checks.",
+      "price": "From $150",
+      "duration": "2-4 hours",
+      "icon": "wrench",
+      "features": [
+        "All brands serviced",
+        "Same-day response",
+        "Warranty claims handled",
+        "Performance optimization"
+      ],
+      "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&h=600&fit=crop"
+    },
+    {
+      "title": "System Upgrades & Expansions",
+      "slug": "solar-upgrades",
+      "shortDescription": "Expand your solar capacity",
+      "description": "Upgrade your existing solar system with more panels, a larger inverter, or add battery storage. We assess your current setup and design the optimal expansion for your needs.",
+      "price": "From $2,500",
+      "duration": "1-2 days",
+      "icon": "plus",
+      "features": [
+        "Compatibility assessment",
+        "Optimal panel placement",
+        "Inverter upgrades",
+        "Seamless integration"
+      ],
+      "image": "https://images.unsplash.com/photo-1545209463-e2825498edbf?w=800&h=600&fit=crop"
     }
   ],
   "serviceAreas": [
     {
       "name": "Brisbane",
       "slug": "brisbane",
-      "description": "Located in the heart of Brisbane, we're your go-to destination for premium solar installer for homes services."
+      "description": "Located in the heart of Brisbane, we're your go-to destination for premium solar installation services."
     },
     {
       "name": "Brisbane CBD",
       "slug": "brisbane-cbd",
-      "description": "Serving the Brisbane CBD with exceptional solar installer for homes services."
+      "description": "Serving the Brisbane CBD with exceptional solar installation services."
     },
     {
       "name": "Surrounding Areas",
       "slug": "surrounding-areas",
-      "description": "We proudly serve Brisbane and all surrounding suburbs with professional solar installer for homes services."
+      "description": "We proudly serve Brisbane and all surrounding suburbs with professional solar installation services."
     }
   ],
   "team": [
     {
-      "name": "Owner",
-      "role": "Founder & Lead Specialist",
-      "bio": "With over 15 years of experience, our founder established Toms Solar Brisbane to bring world-class solar installer for homes services to Brisbane.",
+      "name": "Tom",
+      "role": "Founder & Lead Installer",
+      "bio": "With over 15 years of experience, Tom established Toms Solar Brisbane to bring world-class solar installation services to Brisbane.",
       "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
       "specialties": [
-        "Management",
+        "System Design",
         "Customer Service",
         "Quality Assurance"
       ]
     },
     {
-      "name": "Senior Specialist",
+      "name": "Senior Installer",
       "role": "Senior Team Member",
-      "bio": "Our senior specialist brings 10 years of experience and is known for delivering exceptional results.",
-      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
+      "bio": "Our senior installer brings 10 years of experience and is known for delivering exceptional results.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
       "specialties": [
-        "Expertise",
-        "Precision",
-        "Customer Care"
+        "Roof Installations",
+        "Battery Systems",
+        "Inverters"
       ]
     },
     {
       "name": "Team Member",
-      "role": "Specialist",
-      "bio": "Passionate about solar installer for homes, bringing fresh ideas and excellent service to every client.",
-      "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
+      "role": "Solar Technician",
+      "bio": "Passionate about solar energy, bringing fresh ideas and excellent service to every client.",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
       "specialties": [
-        "Innovation",
-        "Quality",
-        "Reliability"
+        "Panel Installation",
+        "Electrical Work",
+        "Maintenance"
       ]
     }
   ],
@@ -151,17 +183,17 @@
     {
       "name": "Sarah M.",
       "location": "Brisbane",
-      "text": "I've been coming to Toms Solar Brisbane for years and wouldn't trust anyone else. The team are true professionals!",
+      "text": "I've been using Toms Solar Brisbane for years and wouldn't trust anyone else. The team are true professionals!",
       "rating": 5,
-      "service": "Premium Service",
+      "service": "Residential Solar Installation",
       "date": "2024-11"
     },
     {
       "name": "David N.",
       "location": "Brisbane",
-      "text": "Finally found a solar installer for homes that delivers quality every time. Quick, professional, and great value.",
+      "text": "Finally found a solar installer that delivers quality every time. Quick, professional, and great value.",
       "rating": 5,
-      "service": "Standard Service",
+      "service": "Battery Storage",
       "date": "2024-10"
     },
     {
@@ -169,23 +201,23 @@
       "location": "Brisbane",
       "text": "Toms Solar Brisbane exceeded all my expectations. The team was professional and the results were amazing!",
       "rating": 5,
-      "service": "Express Service",
+      "service": "Commercial Solar",
       "date": "2024-09"
     },
     {
       "name": "Amanda C.",
       "location": "Brisbane",
-      "text": "Best service in the area. Fair prices and great communication throughout.",
+      "text": "Best solar service in the area. Fair prices and great communication throughout.",
       "rating": 5,
-      "service": "Premium Service",
+      "service": "Residential Solar Installation",
       "date": "2024-11"
     },
     {
-      "name": "Sophie B.",
+      "name": "Mark B.",
       "location": "Brisbane",
-      "text": "Called for an emergency and they were there within the hour. Couldn't be happier!",
+      "text": "Our electricity bills have dropped by 80% since installing solar. Highly recommend!",
       "rating": 5,
-      "service": "Standard Service",
+      "service": "Residential Solar Installation",
       "date": "2024-08"
     },
     {
@@ -193,119 +225,111 @@
       "location": "Brisbane",
       "text": "Professional, reliable, and great attention to detail. Highly recommended!",
       "rating": 5,
-      "service": "Express Service",
+      "service": "Solar Panel Cleaning",
       "date": "2024-10"
     }
   ],
   "faq": [
     {
-      "question": "How do I book an appointment?",
-      "answer": "You can book online through our website 24/7, call us on 1300 000 000 during business hours, or send us a message on social media."
+      "question": "How much can I save with solar?",
+      "answer": "Most Brisbane homeowners save 50-80% on their electricity bills. We provide a detailed savings estimate during your free consultation based on your usage patterns."
     },
     {
-      "question": "What is your cancellation policy?",
-      "answer": "We require 24 hours notice for cancellations or rescheduling. Late cancellations may incur a fee. We understand emergencies happen and will always work with you."
+      "question": "How long does installation take?",
+      "answer": "Most residential installations are completed in 1-2 days. We handle all paperwork and grid connection for you."
     },
     {
-      "question": "Do you offer free consultations?",
-      "answer": "Yes! We offer complimentary consultations for all our services. This helps us understand your needs and provide an accurate quote."
+      "question": "What warranties do you offer?",
+      "answer": "We offer 10-year workmanship warranty on all installations, plus manufacturer warranties of 25 years on panels and 10 years on inverters."
     },
     {
-      "question": "What areas do you service?",
-      "answer": "We primarily service Brisbane, Brisbane, and surrounding areas within QLD. Contact us to confirm we cover your location."
+      "question": "Do you offer financing?",
+      "answer": "Yes! We partner with leading finance providers to offer interest-free and low-interest payment plans to make solar affordable for everyone."
     },
     {
-      "question": "Is parking available?",
-      "answer": "Yes! Free parking is available near our location. There's also street parking and public transport options nearby."
+      "question": "Are you CEC accredited?",
+      "answer": "Yes, all our installers are Clean Energy Council (CEC) accredited, which is required for accessing government rebates."
     },
     {
-      "question": "What payment methods do you accept?",
-      "answer": "We accept all major credit cards, EFTPOS, bank transfer, and cash. Payment plans may be available for larger services."
-    },
-    {
-      "question": "Are you licensed and insured?",
-      "answer": "Yes, we are fully licensed and insured. All our team members hold current certifications and undergo regular training."
-    },
-    {
-      "question": "Do you offer warranties on your work?",
-      "answer": "Yes! We stand behind our work with satisfaction guarantees and warranties on applicable services. Ask us for details."
+      "question": "What government rebates are available?",
+      "answer": "Queensland residents can access the federal STC rebate which typically saves $3,000-$5,000 on a standard system. We handle all rebate paperwork for you."
     }
   ],
   "about": {
-    "title": "Brisbane's Most Trusted Solar installer for homes Since 2021",
-    "story": "Toms Solar Brisbane was founded in 2021 with a simple mission: to bring world-class solar installer for homes services to Brisbane. After training and working with industry leaders, our founder returned to their hometown to create a business that combines technical excellence with a welcoming, local feel.\n\nToday, our team shares a passion for delivering exceptional results for every client. We've built our reputation on honesty, expertise, and results that speak for themselves.\n\nWhether you need a simple service or a complete solution, we're here to help you achieve your goals.",
-    "mission": "Our mission is to deliver exceptional solar installer for homes services in a welcoming environment, using sustainable practices and premium products.",
+    "title": "Brisbane's Most Trusted Solar Installer Since 2021",
+    "story": "Toms Solar Brisbane was founded in 2021 with a simple mission: to bring world-class solar installation services to Brisbane. After training and working with industry leaders, our founder returned to their hometown to create a business that combines technical excellence with a welcoming, local feel.\n\nToday, our team shares a passion for delivering exceptional results for every client. We've built our reputation on honesty, expertise, and results that speak for themselves.\n\nWhether you need a simple residential system or a complete commercial solution, we're here to help you harness the power of the sun.",
+    "mission": "Our mission is to make clean, renewable solar energy accessible to every Brisbane home and business.",
     "values": [
       {
         "title": "Excellence",
-        "description": "We never stop learning. Our team regularly trains with industry leaders to stay at the forefront of techniques and trends."
+        "description": "We never stop learning. Our team regularly trains with industry leaders to stay at the forefront of solar technology."
       },
       {
         "title": "Honesty",
-        "description": "We'll always give you honest advice about what's achievable and what's best for your needs."
+        "description": "We'll always give you honest advice about what system is right for your needs and budget."
       },
       {
-        "title": "Reliability",
-        "description": "We're committed to showing up on time, every time, and delivering on our promises."
+        "title": "Sustainability",
+        "description": "We're committed to reducing Brisbane's carbon footprint one rooftop at a time."
       }
     ],
     "features": [
-      "Licensed & Fully Insured",
+      "CEC Accredited Installers",
       "Locally Owned Since 2021",
-      "Quality Guaranteed",
-      "Premium Products & Materials",
-      "Complimentary Consultations",
-      "Easy Parking Available"
+      "10-Year Workmanship Warranty",
+      "Premium Tier 1 Panels Only",
+      "Free Consultations",
+      "Interest-Free Finance Available"
     ]
   },
   "gallery": [
     {
-      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=600&fit=crop",
-      "alt": "Our work - Example 1",
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&h=600&fit=crop",
+      "alt": "Solar installation - Example 1",
       "category": "Featured"
     },
     {
-      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&h=600&fit=crop",
-      "alt": "Our work - Example 2",
+      "image": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=600&h=600&fit=crop",
+      "alt": "Solar installation - Example 2",
       "category": "Recent"
     },
     {
-      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=600&fit=crop",
-      "alt": "Our work - Example 3",
+      "image": "https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?w=600&h=600&fit=crop",
+      "alt": "Solar installation - Example 3",
       "category": "Featured"
     },
     {
-      "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=600&fit=crop",
-      "alt": "Our work - Example 4",
+      "image": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&h=600&fit=crop",
+      "alt": "Solar installation - Example 4",
       "category": "Recent"
     },
     {
-      "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&h=600&fit=crop",
-      "alt": "Our work - Example 5",
+      "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&h=600&fit=crop",
+      "alt": "Solar installation - Example 5",
       "category": "Featured"
     },
     {
-      "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&h=600&fit=crop",
-      "alt": "Our work - Example 6",
+      "image": "https://images.unsplash.com/photo-1545209463-e2825498edbf?w=600&h=600&fit=crop",
+      "alt": "Solar installation - Example 6",
       "category": "Recent"
     }
   ],
   "seo": {
-    "siteName": "Toms Solar Brisbane Brisbane",
+    "siteName": "Toms Solar Brisbane",
     "siteUrl": "https://tomssolarbrisbane.com.au",
-    "title": "Toms Solar Brisbane | Best Solar installer for homes Brisbane | Brisbane Solar installer for homes",
-    "description": "Brisbane's top-rated solar installer for homes in Brisbane. Expert service, premium quality. Award-winning team, competitive prices. Book online today!",
+    "title": "Toms Solar Brisbane | Best Solar Installer Brisbane | Queensland Solar",
+    "description": "Brisbane's top-rated solar installer. Expert installation, premium Tier 1 panels, CEC accredited. Save up to 80% on power bills. Free quotes!",
     "keywords": [
-      "solar installer for homes brisbane",
-      "solar installer for homes brisbane",
-      "best solar installer for homes brisbane",
-      "brisbane solar installer for homes",
-      "brisbane solar installer for homes",
-      "local solar installer for homes",
-      "solar installer for homes near me",
-      "professional solar installer for homes",
-      "solar installer for homes services",
-      "QLD solar installer for homes"
+      "solar installer brisbane",
+      "solar panels brisbane",
+      "best solar brisbane",
+      "brisbane solar installation",
+      "queensland solar",
+      "solar power brisbane",
+      "solar near me",
+      "professional solar installer",
+      "residential solar brisbane",
+      "commercial solar brisbane"
     ]
   },
   "schema": {
@@ -313,25 +337,25 @@
     "priceRange": "$$"
   },
   "colors": {
-    "primary": "#2563eb",
-    "primaryLight": "#3b82f6",
-    "secondary": "#1f2937",
-    "accent": "#f59e0b"
+    "primary": "#f59e0b",
+    "primaryLight": "#fbbf24",
+    "secondary": "#1c1917",
+    "accent": "#22c55e"
   },
   "images": {
-    "hero": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop",
-    "about": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop"
+    "hero": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&h=1080&fit=crop",
+    "about": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&h=600&fit=crop"
   },
   "copy": {
-    "heroSubtitle": "Professional solar installer for homes services with quality results guaranteed.",
-    "servicesSubtitle": "From routine maintenance to specialized services, our expert team delivers exceptional results.",
+    "heroSubtitle": "Professional solar installation with quality results guaranteed. Save up to 80% on your electricity bills.",
+    "servicesSubtitle": "From residential systems to commercial installations, our CEC accredited team delivers exceptional results.",
     "teamTitle": "Meet Our Team",
-    "teamSubtitle": "Experienced professionals dedicated to delivering quality solar installer for homes services.",
-    "ctaTitle": "Ready for Professional Solar installer for homes?",
-    "ctaSubtitle": "Get a free quote today and experience the Toms Solar Brisbane difference."
+    "teamSubtitle": "Experienced solar professionals dedicated to powering Brisbane with clean energy.",
+    "ctaTitle": "Ready to Go Solar?",
+    "ctaSubtitle": "Get a free quote today and start saving on your electricity bills."
   },
   "cta": {
-    "primary": "Book Online",
+    "primary": "Get Free Quote",
     "secondary": "Call Now",
     "consultation": "Free Consultation"
   }
