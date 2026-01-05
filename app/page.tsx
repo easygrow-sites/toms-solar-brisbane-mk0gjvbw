@@ -42,7 +42,7 @@ export default function Home() {
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
               {business.city}&apos;s Trusted<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-light to-brand">
+              <span className="text-brand-light">
                 {business.service}
               </span>
             </h1>
