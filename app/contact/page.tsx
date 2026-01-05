@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { content } from '@/lib/content';
+import ContactForm from '@/app/components/ContactForm';
 
 export const metadata: Metadata = {
   title: `Contact & Book | ${content.business.name}`,
@@ -122,45 +123,7 @@ export default function ContactPage() {
 
             {/* Contact Form */}
             <div>
-              <div className="bg-gray-50 rounded-2xl p-8">
-                <h2 className="text-2xl font-bold text-gray-900 mb-6">Send Us a Message</h2>
-                <form className="space-y-6">
-                  <div className="grid sm:grid-cols-2 gap-4">
-                    <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">Name</label>
-                      <input type="text" id="name" name="name" required className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-brand focus:border-transparent outline-none transition" placeholder="Your name" />
-                    </div>
-                    <div>
-                      <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">Phone</label>
-                      <input type="tel" id="phone" name="phone" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-brand focus:border-transparent outline-none transition" placeholder="Your phone" />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">Email</label>
-                    <input type="email" id="email" name="email" required className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-brand focus:border-transparent outline-none transition" placeholder="your@email.com" />
-                  </div>
-
-                  <div>
-                    <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">Service Interested In</label>
-                    <select id="service" name="service" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-brand focus:border-transparent outline-none transition">
-                      <option value="">Select a service</option>
-                      {content.services.map((service) => (
-                        <option key={service.slug} value={service.slug}>{service.title}</option>
-                      ))}
-                    </select>
-                  </div>
-
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">Message</label>
-                    <textarea id="message" name="message" rows={4} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-brand focus:border-transparent outline-none transition resize-none" placeholder="Tell us about what you're looking for..."></textarea>
-                  </div>
-
-                  <button type="submit" className="w-full bg-brand hover:bg-brand-dark text-white px-8 py-4 rounded-full text-lg font-semibold transition-colors">
-                    Send Message
-                  </button>
-                </form>
-              </div>
+              <ContactForm />
 
               <div className="mt-8 bg-brand/10 rounded-xl p-6 text-center">
                 <div className="text-brand font-semibold mb-2">Prefer to call?</div>
