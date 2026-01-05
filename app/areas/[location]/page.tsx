@@ -64,19 +64,19 @@ export default async function AreaPage({ params }: Props) {
 
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 mb-4">
-              <svg className="w-6 h-6 text-pink-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="w-6 h-6 text-brand-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-              <span className="text-pink-400 font-medium">Serving {area.name}</span>
+              <span className="text-brand-light font-medium">Serving {area.name}</span>
             </div>
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6">
               {business.service} in {area.name}
             </h1>
             <p className="text-xl text-gray-300 mb-8">{area.description}</p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-pink-600 hover:bg-pink-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all">
-                Book Appointment
+              <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-brand hover:bg-brand-dark text-white px-8 py-4 rounded-full text-lg font-semibold transition-all">
+                Get a Free Quote
               </Link>
               <a href={`tel:${business.phone}`} className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-gray-900 transition-all">
                 {business.phone}
@@ -99,14 +99,14 @@ export default async function AreaPage({ params }: Props) {
                 href={`/services/${service.slug}`}
                 className="group bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all border border-gray-100"
               >
-                <div className="w-12 h-12 bg-pink-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-pink-600 transition-colors">
-                  <svg className="w-6 h-6 text-pink-600 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-brand/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-brand transition-colors">
+                  <svg className="w-6 h-6 text-brand group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                   </svg>
                 </div>
-                <h3 className="font-bold text-gray-900 mb-2 group-hover:text-pink-600 transition-colors">{service.title}</h3>
+                <h3 className="font-bold text-gray-900 mb-2 group-hover:text-brand transition-colors">{service.title}</h3>
                 <p className="text-gray-600 text-sm mb-3">{service.shortDescription}</p>
-                <span className="text-pink-600 font-semibold">{service.price}</span>
+                <span className="text-brand font-semibold">{service.price}</span>
               </Link>
             ))}
           </div>
@@ -122,26 +122,25 @@ export default async function AreaPage({ params }: Props) {
                 Why {area.name} Clients Choose {business.name}
               </h2>
               <p className="text-gray-600 mb-6">
-                Since {business.established}, we&apos;ve been serving clients from {area.name} and the greater
-                {business.city} region. Our convenient location in {business.suburb} makes us easily
-                accessible, with plenty of free parking available.
+                Since {business.established}, we&apos;ve been providing professional {business.service.toLowerCase()} services
+                to clients in {area.name} and the greater {business.city} region.
               </p>
               <p className="text-gray-600 mb-8">
-                We understand that {area.name} residents appreciate quality and convenience.
-                That&apos;s why we offer online booking, extended hours on Thursdays, and a relaxing
-                salon experience that makes every visit special.
+                We understand that {area.name} residents appreciate quality workmanship and reliable service.
+                That&apos;s why we offer free quotes, flexible scheduling, and a commitment to excellence
+                that makes every project a success.
               </p>
               <ul className="space-y-3">
                 {[
-                  'Easy access from ' + area.name,
-                  'Free parking available',
-                  'Online booking 24/7',
-                  'Extended Thursday hours',
-                  'Award-winning stylists',
+                  'Serving ' + area.name + ' and surrounds',
+                  'Free quotes and consultations',
+                  'Licensed and insured professionals',
+                  'Quality workmanship guaranteed',
+                  'Competitive pricing',
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-3">
-                    <div className="w-5 h-5 bg-pink-100 rounded-full flex items-center justify-center">
-                      <svg className="w-3 h-3 text-pink-600" fill="currentColor" viewBox="0 0 20 20">
+                    <div className="w-5 h-5 bg-brand/10 rounded-full flex items-center justify-center">
+                      <svg className="w-3 h-3 text-brand" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
                     </div>
@@ -151,7 +150,7 @@ export default async function AreaPage({ params }: Props) {
               </ul>
             </div>
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
-              <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?w=800&h=600&fit=crop" alt={`${business.name} salon`} className="w-full h-full object-cover" />
+              <img src={content.images?.hero || "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop"} alt={`${business.name} ${business.service}`} className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -195,7 +194,7 @@ export default async function AreaPage({ params }: Props) {
                 href={`/areas/${a.slug}`}
                 className="flex items-center gap-3 bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow"
               >
-                <svg className="w-5 h-5 text-pink-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="w-5 h-5 text-brand" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 </svg>
                 <span className="font-medium text-gray-900">{business.service} {a.name}</span>
@@ -206,19 +205,19 @@ export default async function AreaPage({ params }: Props) {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-pink-600">
+      <section className="py-16 bg-gradient-to-br from-brand to-brand-dark">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">
-            Book Your Appointment in {area.name}
+            Get a Free Quote in {area.name}
           </h2>
           <p className="text-white/90 mb-8">
-            Join thousands of happy clients from {area.name}. Book online or call us today.
+            Join thousands of satisfied clients in {area.name}. Contact us today for a free quote.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white text-pink-600 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transition-all">
-              Book Online
+            <Link href="/contact" className="inline-flex items-center justify-center gap-2 bg-white text-brand px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl transition-all">
+              Get Free Quote
             </Link>
-            <a href={`tel:${business.phone}`} className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-pink-600 transition-all">
+            <a href={`tel:${business.phone}`} className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white hover:text-brand transition-all">
               Call {business.phone}
             </a>
           </div>
