@@ -12,7 +12,6 @@
     "country": "Australia",
     "service": "Solar Installer",
     "serviceSlug": "solar-installer",
-    "abn": "12 345 678 901",
     "established": 2021,
     "openingHours": {
       "monday": "9:00 AM - 5:00 PM",
@@ -284,41 +283,41 @@
   },
   "gallery": [
     {
-      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&h=600&fit=crop",
-      "alt": "Solar installation - Example 1",
-      "category": "Featured"
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=600&fit=crop",
+      "alt": "Residential Solar Installation",
+      "category": "Residential"
     },
     {
-      "image": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=600&h=600&fit=crop",
-      "alt": "Solar installation - Example 2",
-      "category": "Recent"
+      "image": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&h=600&fit=crop",
+      "alt": "Commercial Solar Systems",
+      "category": "Residential"
     },
     {
-      "image": "https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?w=600&h=600&fit=crop",
-      "alt": "Solar installation - Example 3",
-      "category": "Featured"
+      "image": "https://images.unsplash.com/photo-1559302504-64aae6ca6b6d?w=800&h=600&fit=crop",
+      "alt": "Battery Storage Solutions",
+      "category": "Residential"
     },
     {
-      "image": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=600&h=600&fit=crop",
-      "alt": "Solar installation - Example 4",
-      "category": "Recent"
+      "image": "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?w=800&h=600&fit=crop",
+      "alt": "Solar Panel Cleaning",
+      "category": "Commercial"
     },
     {
-      "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=600&h=600&fit=crop",
-      "alt": "Solar installation - Example 5",
-      "category": "Featured"
+      "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&h=600&fit=crop",
+      "alt": "Solar Repairs & Maintenance",
+      "category": "Commercial"
     },
     {
-      "image": "https://images.unsplash.com/photo-1545209463-e2825498edbf?w=600&h=600&fit=crop",
-      "alt": "Solar installation - Example 6",
-      "category": "Recent"
+      "image": "https://images.unsplash.com/photo-1545209463-e2825498edbf?w=800&h=600&fit=crop",
+      "alt": "System Upgrades & Expansions",
+      "category": "Commercial"
     }
   ],
   "seo": {
-    "siteName": "Toms Solar Brisbane",
+    "siteName": "Toms Solar Brisbane Brisbane",
     "siteUrl": "https://tomssolarbrisbane.com.au",
-    "title": "Toms Solar Brisbane | Best Solar Installer Brisbane | Queensland Solar",
-    "description": "Brisbane's top-rated solar installer. Expert installation, premium Tier 1 panels, CEC accredited. Save up to 80% on power bills. Free quotes!",
+    "title": "Toms Solar Brisbane | Solar installer for homes Brisbane | Professional Solar installer for homes",
+    "description": "Brisbane's top-rated solar installer for homes service. Expert residential and commercial solar installer for homes. Servicing Brisbane & surrounding areas. Call 12345678977.",
     "keywords": [
       "solar installer brisbane",
       "solar panels brisbane",
